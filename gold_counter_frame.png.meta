@@ -1,0 +1,678 @@
+fileFormatVersion: 2
+guid: 0d49a29d229e4a845a33190e9ede7632
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2760660843558181887
+    second: gold_counter_frame_0
+  - first:
+      213: -7290755110157309095
+    second: gold_counter_frame_1
+  - first:
+      213: 9033166602736177445
+    second: gold_counter_frame_2
+  - first:
+      213: 698860471067469504
+    second: gold_counter_frame_3
+  - first:
+      213: 7418723889982772995
+    second: gold_counter_frame_4
+  - first:
+      213: 6009876040132720414
+    second: gold_counter_frame_5
+  - first:
+      213: 4338025845809375119
+    second: gold_counter_frame_6
+  - first:
+      213: 425345580238066351
+    second: gold_counter_frame_7
+  - first:
+      213: -4654308176040751479
+    second: gold_counter_frame_8
+  - first:
+      213: 6884354309333610878
+    second: gold_counter_frame_9
+  - first:
+      213: 531611150144575240
+    second: gold_counter_frame_10
+  - first:
+      213: -7108390155414783344
+    second: gold_counter_frame_11
+  - first:
+      213: 3377913962925119924
+    second: gold_counter_frame_12
+  - first:
+      213: 5628105367023378928
+    second: gold_counter_frame_13
+  - first:
+      213: 1311103908380729225
+    second: gold_counter_frame_14
+  - first:
+      213: -652004100083819188
+    second: gold_counter_frame_15
+  - first:
+      213: -3518346754560258042
+    second: gold_counter_frame_16
+  - first:
+      213: 1277310494024823730
+    second: gold_counter_frame_17
+  - first:
+      213: 3313210771505607466
+    second: gold_counter_frame_18
+  - first:
+      213: -156084296656486221
+    second: gold_counter_frame_19
+  - first:
+      213: -3496955485804097561
+    second: gold_counter_frame_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gold_counter_frame_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2017
+        height: 722
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb9d9d1966df4620800000000000000
+      internalID: 2760660843558181887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold_counter_frame_1
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 650
+        width: 26
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ba5bafad802da90800000000000000
+      internalID: -7290755110157309095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold_counter_frame_2
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 669
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52113095a214c5d70800000000000000
+      internalID: 9033166602736177445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold_counter_frame_3
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 658
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6e98d45e9d2b900800000000000000
+      internalID: 698860471067469504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold_counter_frame_4
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 652
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3079025621a94f660800000000000000
+      internalID: 7418723889982772995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold_counter_frame_5
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 96
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17fd34ba6e576350800000000000000
+      internalID: 6009876040132720414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold_counter_frame_6
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 104
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f876eedd583c33c30800000000000000
+      internalID: 4338025845809375119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold_counter_frame_7
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 82
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa25fd83d8127e500800000000000000
+      internalID: 425345580238066351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold_counter_frame_8
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 66
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e05eb9f53986fb0800000000000000
+      internalID: -4654308176040751479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold_counter_frame_9
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 74
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7172cbf4c32a8f50800000000000000
+      internalID: 6884354309333610878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold_counter_frame_10
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 64
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80711034689a06700800000000000000
+      internalID: 531611150144575240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold_counter_frame_11
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 48
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a3e95c0dce95d90800000000000000
+      internalID: -7108390155414783344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold_counter_frame_12
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 37
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9dbf13ad2c0ee20800000000000000
+      internalID: 3377913962925119924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold_counter_frame_13
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 60
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1e5e7230c0b1e40800000000000000
+      internalID: 5628105367023378928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold_counter_frame_14
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 28
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98fd8a2ee0af13210800000000000000
+      internalID: 1311103908380729225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold_counter_frame_15
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 37
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4dd766b9bd93f6f0800000000000000
+      internalID: -652004100083819188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold_counter_frame_16
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 37
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60099c984425c2fc0800000000000000
+      internalID: -3518346754560258042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold_counter_frame_17
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 17
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b37a38702be9b110800000000000000
+      internalID: 1277310494024823730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold_counter_frame_18
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 15
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23f69d74a3eafd20800000000000000
+      internalID: 3313210771505607466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold_counter_frame_19
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 15
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b006ceb82a75ddf0800000000000000
+      internalID: -156084296656486221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold_counter_frame_20
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 17
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef0b496381587fc0800000000000000
+      internalID: -3496955485804097561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gold_counter_frame_0: 2760660843558181887
+      gold_counter_frame_1: -7290755110157309095
+      gold_counter_frame_10: 531611150144575240
+      gold_counter_frame_11: -7108390155414783344
+      gold_counter_frame_12: 3377913962925119924
+      gold_counter_frame_13: 5628105367023378928
+      gold_counter_frame_14: 1311103908380729225
+      gold_counter_frame_15: -652004100083819188
+      gold_counter_frame_16: -3518346754560258042
+      gold_counter_frame_17: 1277310494024823730
+      gold_counter_frame_18: 3313210771505607466
+      gold_counter_frame_19: -156084296656486221
+      gold_counter_frame_2: 9033166602736177445
+      gold_counter_frame_20: -3496955485804097561
+      gold_counter_frame_3: 698860471067469504
+      gold_counter_frame_4: 7418723889982772995
+      gold_counter_frame_5: 6009876040132720414
+      gold_counter_frame_6: 4338025845809375119
+      gold_counter_frame_7: 425345580238066351
+      gold_counter_frame_8: -4654308176040751479
+      gold_counter_frame_9: 6884354309333610878
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
