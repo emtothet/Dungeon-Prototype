@@ -1,0 +1,29 @@
+{
+  "name": "com.unity.ai.assistant",
+  "displayName": "Assistant",
+  "version": "2.20.0-pre.1",
+  "unity": "6000.0",
+  "description": "Assistant is a generative AI tool integrated into the Unity Editor to explore ideas, answer questions, and perform actions directly in the project. Use natural-language prompts to interact with Assistant in a conversation-based interface. Depending on the mode you choose, Assistant can either provide guidance or take action in your scene and assets.\n\nAsk\nFocuses on explanation and guidance. Assistant answers questions, suggests workflows, and inspects your project using read-only tools without modifying your content.\n\nAgent\nFocuses on action. Assistant can create, modify, or remove objects and assets by calling the Unity Editor tools. All actions respect your permission settings and require approval when needed.\n\nAssistant is designed to be project-aware, helping you work more efficiently without leaving the Unity Editor. It also provides tools for adding generative AI to Unity asset workflows.",
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.1",
+    "com.unity.modules.unitywebrequest": "1.0.0",
+    "com.unity.modules.uielements": "1.0.0",
+    "com.unity.2d.sprite": "1.0.0",
+    "com.unity.mathematics": "1.3.2",
+    "com.unity.nuget.mono-cecil": "1.11.5"
+  },
+  "unityRelease": "60f1",
+  "_upm": {
+    "changelog": "### Changed\n\n- Generated scripts that call APIs deprecated in the running Editor now report the deprecation and its replacement to the agent, including return-type changes, so it can converge on a fix (UUM-141875).\n- Updated the What's New banner content for the 2.20 release.\n\n### Fixed\n\n- AI Assistant no longer freezes indefinitely when a domain reload is abandoned (e.g. an edit that fails to compile mid-turn); the relay now forces a reconnect after a bounded timeout so the editor recovers the in-flight turn.\n- Disabled the model Change button and clarified its tooltip when no AI models are available.\n- Generation feedback no longer reports every available category as selected; `feedbackCategories` now only carries categories the user actually chose (FUTR-2541).\n- Opening or switching to a large conversation no longer freezes the Editor for seconds; the chat now virtualizes its content.\n- Point cost labels now attach to the exact prompt a response answers (using the server's `correlation_message_id`) instead of the nearest preceding message, so a prompt re-sent mid-response no longer shows another turn's cost.\n- The Assistant hanging on \"Preparing...\" in projects carrying a leftover `EXCLUDE_COMPILER_SERVICES_UNSAFE` scripting define.\n- The relay adapter now follows the RelayService client swap on a proactive reconnect, so a closing message's completion is no longer orphaned when the connection is replaced mid-turn.\n- The package now compiles on Unity 7000.0, where the Licensing API moved from `UnityEditor.Experimental.Licensing` to `UnityEditor.Licensing`."
+  },
+  "upmCi": {
+    "footprint": "3de75982a14ad424ee3a91c6e9089df6c7f3897f"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.ai.assistant@2.20/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/muse-editor.git",
+    "type": "git",
+    "revision": "7a01370d3de8ea8f63feb59159aad28f20d0f62b"
+  },
+  "_fingerprint": "ceb45b7b3ebd1a2ac00650fabec7e70350219fcc"
+}
