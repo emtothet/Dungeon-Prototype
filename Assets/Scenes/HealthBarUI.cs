@@ -14,6 +14,7 @@ public class HealthBarUI : MonoBehaviour
 
     private void Update()
     {
+        slider.maxValue = playerHealth.maxHealth;
         slider.value = playerHealth.health;
     }
 }

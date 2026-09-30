@@ -5,8 +5,16 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 5;
     public int health = 5;
 
+    private void Awake()
+    {
+        // Existing scenes work without manually wiring another component.
+        if (GetComponent<PlayerProgression>() == null)
+            gameObject.AddComponent<PlayerProgression>();
+    }
+
     public void TakeDamage(int damage)
     {
+        if (damage <= 0 || health <= 0) return;
         health -= damage;
         health = Mathf.Max(health, 0);
 

@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -11,16 +12,18 @@ public class PlayerAttack : MonoBehaviour
     private float nextAttackTime = 0f;
     private SpriteRenderer spriteRenderer;
     private Color originalColor;
+    private PlayerProgression progression;
 
     private void Start()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        originalColor = spriteRenderer.color;
+        progression = GetComponent<PlayerProgression>();
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        if (spriteRenderer != null) originalColor = spriteRenderer.color;
     }
 
     private void Update()
     {
-        if (Keyboard.current != null &&
+        if (Time.timeScale > 0f && Keyboard.current != null &&
             Keyboard.current.spaceKey.wasPressedThisFrame &&
             Time.time >= nextAttackTime)
         {
@@ -31,7 +34,10 @@ public class PlayerAttack : MonoBehaviour
 
     private void Attack()
     {
-        StartCoroutine(AttackFlash());
+        if (spriteRenderer != null) StartCoroutine(AttackFlash());
+        var hitEnemies = new HashSet<EnemyHealth>();
+        // Snapshot damage so leveling mid-swing doesn't affect later targets.
+        int hitDamage = damage + (progression != null ? progression.DamageBonus : 0);
 
         Collider2D[] targets = Physics2D.OverlapCircleAll(
             transform.position,
@@ -40,11 +46,11 @@ public class PlayerAttack : MonoBehaviour
 
         foreach (Collider2D target in targets)
         {
-            EnemyHealth enemy = target.GetComponent<EnemyHealth>();
+            EnemyHealth enemy = target.GetComponentInParent<EnemyHealth>();
 
-            if (enemy != null)
+            if (enemy != null && hitEnemies.Add(enemy))
             {
-                enemy.TakeDamage(damage);
+                enemy.TakeDamage(hitDamage, progression);
             }
         }
     }

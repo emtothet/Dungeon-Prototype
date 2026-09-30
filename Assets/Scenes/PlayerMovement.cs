@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        if (Keyboard.current == null)
+        if (Time.timeScale <= 0f || Keyboard.current == null)
         {
             movement = Vector2.zero;
             return;

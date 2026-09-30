@@ -1,0 +1,25 @@
+## globe_frame_v1
+Reference: /workspace/scratch/3de7e04f9322/repo-audit/Assets/ui_diablo_globe_frame.png
+
+Extract/recreate only this ornate demonic winged circular dark bronze frame. REMOVE red orb completely leaving its entire round opening genuinely transparent. Remove ALL background, brown haze and shadow. Preserve wing shape, demon carving and worn metal. One centered front-facing square sprite with padding, no text. Both outer background and circular hole alpha zero.
+
+## health_liquid_v1
+Reference: /workspace/scratch/3de7e04f9322/repo-audit/Assets/ui_diablo_globe_frame.png
+
+Create ONLY an isolated perfectly circular dark blood-red liquid disk for this health globe, straight-on, no frame, no demon, no metal. Rich restrained crimson with subtle fluid texture, darker upper portion and slightly brighter lower portion, no white baked glass reflection. Circle centered with small transparent padding, outside circle fully transparent. No text, shadow or backdrop.
+
+## inventory_panel_v1
+Reference: /workspace/scratch/3de7e04f9322/generated_images/exec-4ab116ed-a501-401e-80f3-6c3435992c78.png
+
+Recreate only the empty right-hand inventory panel background as a separate portrait UI texture. Tall rectangle approximately 3:5. Near-black charcoal worn leather/stone interior and narrow antique bronze border with tiny restrained gothic corner engravings. Entire inside EMPTY uniform dark low-contrast texture. Remove all text, slots, icons, dividers, buttons, labels, items and scene. Front facing pixel-aligned straight edges no perspective, full rectangle visible with very small transparent exterior margin. Not a screenshot.
+
+## inventory_slot_v1
+Reference: /workspace/scratch/3de7e04f9322/generated_images/exec-4ab116ed-a501-401e-80f3-6c3435992c78.png
+
+Create ONLY ONE empty square inventory slot matching the reference bag slots, as a separate front-facing UI texture. Thin aged bronze edging, tiny worn corners, near-black subtly cracked leather interior. No text, icons, items, glow, panels or scene. Square silhouette fills 95 percent of square image; small exterior margin genuinely transparent. Clean straight edges no perspective.
+
+## button_normal_v1
+Reference: /workspace/scratch/3de7e04f9322/generated_images/exec-4ab116ed-a501-401e-80f3-6c3435992c78.png
+
+Create ONLY ONE blank horizontal rectangular UI button, approximately 4:1 aspect, matching the restrained aged bronze borders and charcoal leather panel. Narrow worn bronze bevel and subtle corner engraving, dark almost black interior with space for later text. Normal unselected state, no glow, no lettering, no icon, no key label. Straight-on, aligned edges, whole button visible, transparent outside with small padding, no backdrop or shadow haze.
+
